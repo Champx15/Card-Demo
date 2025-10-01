@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.Map;
 
 @org.springframework.web.bind.annotation.RestController
-@CrossOrigin(origins = " ")
+@CrossOrigin(origins = "* ")
 public class RestController {
     @Autowired
     private Dao dao;
