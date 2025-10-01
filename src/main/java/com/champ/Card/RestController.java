@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.Map;
 
 @org.springframework.web.bind.annotation.RestController
-@CrossOrigin(origins = "http://127.0.0.1:5500")
+@CrossOrigin(origins = " ")
 public class RestController {
     @Autowired
     private Dao dao;
