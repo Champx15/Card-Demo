@@ -10,6 +10,16 @@ public class User {
     private int id;
     private String name;
     private String tagline;
+    @Column(name="image")
+    private String imageUrl;
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 
     public User(String tagline, String name) {
         this.tagline = tagline;
